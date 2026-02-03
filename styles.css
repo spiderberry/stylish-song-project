@@ -46,3 +46,17 @@ p {
     /* Rounds the corners of the box by 5 pixels */
 }
 
+/* Selects ONLY the 5th paragraph element */
+p:nth-child(5) {
+    background: revert;
+    box-shadow: revert;
+    padding: revert;
+    /* 'revert' resets these properties to the browser's default,
+       effectively removing the custom styling for this specific line */
+}
+
+a {
+    font-size: 12px;
+    /* Makes the link text smaller */
+}
+    
